@@ -9,6 +9,6 @@ Let's say that:
 - the corpus is made of a very large number of vectors on the equator and only one in Tokyo
 - the query vector is located in Milano
 
-With a k-nearest neighbors search based on cosine similarity, the first result will probably be a vector on the equator directly south of the Milano, somewhere in Gabon. But with a SVM, Tokyo will be picked first it shares the feature that sets the query vector apart from the corpus of vectors: being in the northern hemisphere. It would be actually be the North Pole (and not another place in Italy) that could get the highest score!
+With a k-nearest neighbors search based on cosine similarity, the first result will probably be a vector on the equator directly south of Milano, somewhere in Gabon. But with a SVM, Tokyo will be picked first it shares the feature that sets the query vector apart from the corpus of vectors: being in the northern hemisphere. It would be actually be the North Pole (and not another place in Italy) that could get the highest score!
 
 ![Illustration](illustration.png)
